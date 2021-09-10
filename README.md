@@ -110,6 +110,17 @@ Build an API inside the `api` folder with endpoints for:
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+
+SQL is the query language that is used with relational databases. Relational databases and their management systems almost always use SQL as their underlying query language. NoSQL, or not only SQL, databases use SQL and other query languages.
+
 2. Why do tables need a Primary Key?
+
+In SQL databases, every table should have a primary key. The primary key (PK) is formed by one or several columns and is used to uniquely identify every record stored in the table.
+
 3. What is the name given to a table column that references the Primary Key on another table?
+
+A foreign key (FK) is an attribute in a table that references the primary key in another table OR it can be null. Both foreign and primary keys must be of the same data type.
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
+
+A many to many relationship occurs when multiple records in a table are associated with multiple records in another table. For example, a many-to-many relationship exists between customers and products: customers can purchase various products, and products can be purchased by many customers.
